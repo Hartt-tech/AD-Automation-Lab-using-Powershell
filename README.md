@@ -35,7 +35,8 @@ Next, I installed the Active Directory Domain Services (AD DS) role on the serve
 
 ### Step 3: Designing the OU Structure
 I created an Organizational Unit (OU) structure to mimic a real corporate hierarchy. This allows for clean object management and targeted security policies.
-* Created a parent OU named `Corporate_Users`.
+* Created a parent OU named `Corp_Users`.
+* Created a parent OU named `Corp_Workstations`.
 * Created sub-OUs for `IT`, `HR`, and `Finance`.
 
 ![alt text](images/Screenshot%202026-09-27%20013556.png)
